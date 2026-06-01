@@ -1,0 +1,279 @@
+** Alert 1780296856.0: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:16 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/passwd' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[b-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /bin/passwd
+
+** Alert 1780296856.379: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:16 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/passwd' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[b-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/passwd
+
+** Alert 1780296857.768: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:17 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/chfn' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[a-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/chfn
+
+** Alert 1780296857.1153: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:17 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/chfn' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[a-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /bin/chfn
+
+** Alert 1780296857.1531: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:17 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/chsh' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[a-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/chsh
+
+** Alert 1780296857.1917: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:17 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/chsh' detected. Signature used: 'bash|file\.h|proc\.h|/dev/ttyo|/dev/[A-Z]|/dev/[a-s,uvxz]' (Generic).
+title: Trojaned version of file detected.
+file: /bin/chsh
+
+** Alert 1780296857.2295: - ossec,pci_dss_10.2.7,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AU.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:24:17 kali->netstat listening ports
+Rule: 533 (level 7) -> 'Listened ports status (netstat) changed (new port opened or closed).'
+ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:1514 0.0.0.0:* 2238/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 2068/wazuh-authd
+tcp 127.0.0.1:45201 0.0.0.0:* 1178/containerd
+Previous output:
+ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:1514 0.0.0.0:* 2469/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 2188/wazuh-authd
+tcp 127.0.0.1:40569 0.0.0.0:* 1240/containerd
+tcp 0.0.0.0:55000 0.0.0.0:* 2097/python3
+
+** Alert 1780296858.3027: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:18 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /bin/diff
+
+** Alert 1780296858.3398: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2026 Jun 01 12:24:18 kali->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Trojaned version of file '/usr/bin/diff' detected. Signature used: 'bash|^/bin/sh|file\.h|proc\.h|/dev/[^n]|^/bin/.*sh' (Generic).
+title: Trojaned version of file detected.
+file: /usr/bin/diff
+
+** Alert 1780296865.3777: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:24:25 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: lightdm
+2026-06-01T12:24:24.895173+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+
+** Alert 1780296866.4171: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:24:26 kali->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1780297217.4414: - ossec,pci_dss_10.2.7,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AU.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:30:17 kali->netstat listening ports
+Rule: 533 (level 7) -> 'Listened ports status (netstat) changed (new port opened or closed).'
+ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:443 0.0.0.0:* 556/node
+tcp 0.0.0.0:1514 0.0.0.0:* 2238/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 2068/wazuh-authd
+tcp6 127.0.0.1:9200 :::* 1159/java
+tcp6 127.0.0.1:9300 :::* 1159/java
+tcp 127.0.0.1:45201 0.0.0.0:* 1178/containerd
+tcp 0.0.0.0:55000 0.0.0.0:* 2016/python3
+Previous output:
+ossec: output: 'netstat listening ports':
+tcp 0.0.0.0:1514 0.0.0.0:* 2238/wazuh-remoted
+tcp 0.0.0.0:1515 0.0.0.0:* 2068/wazuh-authd
+tcp 127.0.0.1:45201 0.0.0.0:* 1178/containerd
+
+** Alert 1780297522.5251: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:35:22 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:35:21.865819+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/tail -20 /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/tail -20 /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297522.5825: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:35:22 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:35:21.869664+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297522.6266: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:35:22 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:35:21.874823+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297577.6642: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:17 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:36:17.350444+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep -c Alert /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep -c Alert /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297577.7226: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:17 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:36:17.351999+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297577.7667: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:17 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:36:17.355189+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297593.8043: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:33 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:36:33.661646+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep 'level 1[0-9]' /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep 'level 1[0-9]' /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297593.8639: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:33 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:36:33.661932+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297593.9080: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:36:33 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:36:33.665209+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297630.9456: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:10 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:37:08.987727+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep Rule: /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep Rule: /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297630.10034: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:10 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:37:08.990458+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297630.10476: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:10 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:37:08.994418+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297649.10853: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:29 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:37:27.809707+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep '-> \'' /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep '-> \'' /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297649.11436: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:29 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:37:27.810428+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297649.11878: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:37:29 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:37:27.813428+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297682.12255: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:02 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:38:02.647311+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep -F '-> \'' /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep -F '-> \'' /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297682.12844: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:02 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:38:02.648008+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297682.13286: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:02 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:38:02.650901+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297712.13663: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:32 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:38:31.266932+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep -a level /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/grep -a level /var/ossec/logs/alerts/alerts.log
+
+** Alert 1780297712.14248: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:32 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:38:31.268904+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297712.14690: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:38:32 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:38:31.287745+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297950.15067: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:42:30 kali->/var/log/auth.log
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+2026-06-01T12:42:30.003477+05:30 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/cp /var/ossec/logs/alerts/alerts.log /home/kali/wazuh-siem/alerts.log
+tty: pts/0
+pwd: /home/kali
+command: /usr/bin/cp /var/ossec/logs/alerts/alerts.log /home/kali/wazuh-siem/alerts.log
+
+** Alert 1780297950.15696: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:42:30 kali->/var/log/auth.log
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+2026-06-01T12:42:30.008292+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+uid: 1000
+
+** Alert 1780297950.16138: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 01 12:42:30 kali->/var/log/auth.log
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+2026-06-01T12:42:30.014373+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+
+** Alert 1780297992.16515: - clamd,freshclam,virus,pci_dss_5.2,gpg13_4.4,gdpr_IV_35.7.d,nist_800_53_SI.3,tsc_A1.2,
+2026 Jun 01 12:43:12 kali->/var/log/syslog
+Rule: 52507 (level 3) -> 'ClamAV database update'
+2026-06-01T12:43:12.127207+05:30 kali freshclam[20530]: Mon Jun  1 12:43:12 2026 -> ClamAV update process started at Mon Jun  1 12:43:12 2026
+
