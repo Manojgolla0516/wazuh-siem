@@ -53,7 +53,7 @@ Accessed via browser at `https://127.0.0.1`
 ![Security Events](screenshots/security_events_55.png)
 
 **Security Events — 98 alerts**
-![Security Events Growing](screenshots/security_events_98.png)
+![Security Events Growing](image3.png)
 
 ---
 
