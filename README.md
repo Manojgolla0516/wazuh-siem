@@ -50,7 +50,7 @@ Accessed via browser at `https://127.0.0.1`
 ![Wazuh Dashboard](imagedashboard.png)
 
 **Security Events — 55 alerts**
-![Security Events](screenshots/security_events_55.png)
+![Security Events](image2.png)
 
 **Security Events — 98 alerts**
 ![Security Events Growing](image3.png)
