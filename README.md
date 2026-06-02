@@ -47,7 +47,7 @@ Accessed via browser at `https://127.0.0.1`
 ### Screenshots
 
 **Main Dashboard**
-![Wazuh Dashboard](screenshots/wazuh_dashboard.png)
+![Wazuh Dashboard](Screenshot2026-05-25at12-45-07Wazuh-security_events.png)
 
 **Security Events — 55 alerts**
 ![Security Events](screenshots/security_events_55.png)
